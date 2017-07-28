@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+
+<!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -101,84 +102,92 @@
     
 
 <!--------------Content--------------->
-<section class="container page-home">
-	<div id="main-content" class="wrap-container zerogrid">
-		<article>
-			<div class="col-1-2 right">
-				<img src="images/img01.jpg" />
+<section class="container page-single">
+	<div class="wrap-container zerogrid">
+		<div class="col-2-3">
+			<div id="main-content" class="wrap-col">
+				<article>
+					<div class="art-header">
+						<h2>Contact Us</h2>
+						<div class="line"></div>
+					</div>
+					<div class="art-content">
+						<div id="contact_form">								
+						    <form name="form1" id="ff" method="post" action="contact.php">
+						    <h3>Hello !! You can send message to us.</h3>
+						    <p>[Ready to use] Hi Everyone !! Visitor can use this contact form to send message to you. Open file contact.php and modify your email.</p>
+						       
+						    <label>
+					        <span>Name*:</span>
+					        <input type="text" placeholder="Please enter your name" name="name" id="name" required>
+					        </label>
+					 
+					        <label>
+					        <span>Email*:</span>
+					        <input type="email" placeholder="youremail@gmail.com" name="email" id="email" required>
+					        </label>
+							
+							<label>
+					        <span>Message*:</span>
+					        <textarea name="message" id="message">Please enter your message</textarea>
+					        </label>
+					 
+					        <input class="sendButton" type="submit" name="Submit" value="Send">
+						 
+						   </form>
+						</div>
+					</div>
+				</article>
 			</div>
-			<div class="col-1-2 left">
-				<a class="art-category left" href="#">Design</a>
-				<div class="clear"></div>
-				<div class="art-content">
-					<h2>the title on the article</h2>
-					<div class="info">By Admin on March 01, 2015 with <a href="#">01 Commnets</a></div>
-					<div class="line"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.</p>
-					<a href="#" class="more">Read More</a>
-				</div>	
-			</div>
-		</article>
-		<article>
-			<div class="col-1-2">
-				<img src="images/img02.jpg" />
-			</div>
-			<div class="col-1-2">
-				<a class="art-category right" href="#">Portfolio</a>
-				<div class="clear"></div>
-				<div class="art-content">
-					<h2>the title on the article</h2>
-					<div class="info">By Admin on March 01, 2015 with <a href="#">01 Commnets</a></div>
-					<div class="line"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.</p>
-					<a href="#" class="more">Read More</a>
+		</div>
+		<div class="col-1-3">
+			<div id="sidebar" class="wrap-col">
+				<div class="widget">
+					<div class="wid-header"><h4>About us</h4></div>
+					<div class="wid-content">
+						<a href="https://www.zerotheme.com" target="_blank"><h1>ZEROTHEME</h1></a>
+						<p>Free Html5 Templates created by <a href="https://www.zerotheme.com" target="_blank">Zerotheme</a>. You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files.</p>
+					</div>
+				</div>
+				<div class="widget wid-menu">
+					<div class="wid-header"><h4>Categories</h4></div>
+					<div class="wid-content">
+						<ul>
+							<li><a href="https://www.zerotheme.com">Free Html5 Templates</a></li>
+							<li><a href="https://www.zerotheme.com">Free Responsive Themes</a></li>
+							<li><a href="https://www.zerotheme.com">Free Html5 and Css3 Themes</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="widget wid-posts">
+					<div class="wid-header"><h4>Popular Post</h4></div>
+					<div class="wid-content">
+						<div class="post">
+							<a href="#"><img src="images/img02.jpg"/></a>
+							<h6><a href="#">Lorem ipsum dolor sit amet</a></h6>
+							<p>November 11 ,2015</p>
+						</div>
+						<div class="post">
+							<a href="#"><img src="images/img03.jpg"/></a>
+							<h6><a href="#">Lorem ipsum dolor sit amet</a></h6>
+							<p>November 11 ,2015</p>
+						</div>
+						<div class="post">
+							<a href="#"><img src="images/img04.jpg"/></a>
+							<h6><a href="#">Lorem ipsum dolor sit amet</a></h6>
+							<p>November 11 ,2015</p>
+						</div>
+					</div>
+				</div>
+				<div class="widget wid-label">
+					<div class="wid-header"><h4>Labels</h4></div>
+					<div class="wid-content">
+						<a href="#">Design</a> <a href="#">Technology</a> <a href="#">Animal</a> <a href="#">People</a> <a href="#">House</a> <a href="#">Natural</a> <a href="#">Photoshop</a>
+					</div>
 				</div>
 			</div>
-		</article>
-		<article>
-			<div class="col-1-2 right">
-				<img src="images/img03.jpg" />
-			</div>
-			<div class="col-1-2 left">
-				<a class="art-category left" href="#">Gallery</a>
-				<div class="clear"></div>
-				<div class="art-content">
-					<h2>the title on the article</h2>
-					<div class="info">By Admin on March 01, 2015 with <a href="#">01 Commnets</a></div>
-					<div class="line"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.</p>
-					<a href="#" class="more">Read More</a>
-				</div>	
-			</div>
-		</article>
-		<article>
-			<div class="col-1-2">
-				<img src="images/img04.jpg" />
-			</div>
-			<div class="col-1-2">
-				<a class="art-category right" href="#">Studio</a>
-				<div class="clear"></div>
-				<div class="art-content">
-					<h2>the title on the article</h2>
-					<div class="info">By Admin on March 01, 2015 with <a href="#">01 Commnets</a></div>
-					<div class="line"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus.</p>
-					<a href="#" class="more">Read More</a>
-				</div>
-			</div>
-		</article>
+		</div>
 	</div>
-	
-	<div id="pagination" class="clearfix">
-		<ul>
-			<li><a class="current" href="#">1</a></li>
-			<li><a href="#">2</a></li>
-			<li><a href="#">3</a></li>
-			<li><a href="#">4</a></li>
-			<li><a href="#">next</a></li>
-		</ul>
-	</div>
-	
 </section>
 <!--------------Footer--------------->
 <footer>
@@ -204,7 +213,7 @@
 		</div>
 	</div>
 	<div class="copyright">
-		<p>Copyright © 2015 - <a href="https://www.zerotheme.com" title="free html5 templates">Html5 Templates</a> by Zerotheme</p>
+		<p>Copyright © 2015 - Designed by <a href="https://www.zerotheme.com" title="free website templates">Zerotheme</a></p>
 	</div>
 </footer>
 
