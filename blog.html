@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/templatemo-style.css">
+<!--
+Puzzle Template
+http://www.templatemo.com/tm-477-puzzle
+-->
+    <title>dugufei's blog</title>
+    <link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
+</head>
+
+<body>
+    <div class="fixed-header">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">DuguFei</a>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a class="external" href="./index.html">Home</a></li>
+                    <li><a class="external" href="./blog.html">Blog</a></li>
+                    <li><a class="external" href="./about.html">About</a></li>
+                    <!-- <li><a class="external" href="https://www.facebook.com/templatemo" target="_blank">External</a></li> -->
+                    <li><a class="external" href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="col-md-12 content" id="home">
+           <div class="background" style="width:100%">
+               <h2 class="main-title text-center dark-blue-text" style="margin-top:0;margin-bottom:20px"><a class="external" href="https://www.baidu.com">Puzzle Bootstrap Template</a></h2>
+               <p>Puzzle is a Bootstrap (v3.3.6) HTML CSS layout provided by <span class="light-blue-text">templatemo</span>. You can download, modify and use this layout for absolutely free of charge.</p>
+
+           </div>
+           <hr>
+           <div class="background" style="width:100%" >
+               <h2 class="main-title text-center dark-blue-text" style="margin-top:0;margin-bottom:20px">Quility Services</h2>
+               <p>Nulla odio nunc, rhoncus quis porttitor quis, convallis sed tortor. Quisque dui mews, euismod vel sapien at, maximus feugiat tellus. </p>
+
+           </div>
+           <hr>
+           <div class="background" style="width:100%">
+               <h2 class="main-title text-center dark-blue-text" style="margin-top:0;margin-bottom:20px">Our Clients</h2>
+               <p>Maecenas tempus nisi in arcu facilisis venenatis. Fusce ac turpis sem. Nulla eget sem sit amet turpis tempus viverra at et odio. Crasvel eros id ipsum accumsan venenatis ut nec ipsum. </p>
+
+           </div>
+       </section>
+<!-- <footer class="col-md-12 content" id="externals">
+ <div class="col-lg-6 col-md-6 last">
+   <img src="images/5.png" alt="Image" class="tm-image">
+</div>
+<div class="col-lg-6 col-md-6 background last about-text-container">
+   <h2 class="section-title">About This Website</h2>
+   <p class="about-text">Puzzle Template is brought to you by templatemo. Sed imperdiet quis ipsum a vulputate. Suspendisse sit amet nibh mi. In quis sapien a metus interdum hendrerit.</p>
+</div>
+</footer> -->
+
+</div>
+
+<div class="text-center footer">
+	<div class="container">
+		Copyright @ 2017 Company Name
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.singlePageNav.min.js"></script>
+
+<script>
+
+// Check scroll position and add/remove background to navbar
+function checkScrollPosition() {
+    if($(window).scrollTop() > 50) {
+      $(".fixed-header").addClass("scroll");
+  } else {
+      $(".fixed-header").removeClass("scroll");
+  }
+}
+
+$(document).ready(function () {
+    // Single page nav
+    $('.fixed-header').singlePageNav({
+        offset: 59,
+        filter: ':not(.external)',
+        updateHash: true
+    });
+
+    checkScrollPosition();
+
+    // nav bar
+    $('.navbar-toggle').click(function(){
+        $('.main-menu').toggleClass('show');
+    });
+
+    $('.main-menu a').click(function(){
+        $('.main-menu').removeClass('show');
+    });
+});
+
+$(window).on("scroll", function() {
+    checkScrollPosition();
+});
+</script>
+</body>
+</html>
