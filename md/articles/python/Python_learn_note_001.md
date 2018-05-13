@@ -1,3 +1,2 @@
-# Python_learn_note_001
+# Python 学习笔记 001
 
-![favicon.ico](../../../images/favicon.ico)
