@@ -4,7 +4,7 @@
 
 #1. copy
 
-python的赋值语句不会进行复制对象，只是在目标和对象之间创建绑定。对于可变或者包含可变想项的集合（collections）有时候需要一个副本，这样可以改变一个副本而不会同时保持另一个副本不变。这时候可以使用python的copy模块（copy模块的源码[copy.py](https://github.com/python/cpython/blob/3.7/Lib/copy.py)）。copy模块包含浅拷贝（shallow copy）和深拷贝（deep copy）操作，具体介绍如下。
+python的赋值语句不会进行复制对象，只是在目标和对象之间创建绑定。对于可变或者包含可变项的集合（collections）有时候需要一个副本，这样可以改变一个副本而同时保持另一个副本不变。这时候可以使用python的copy模块（copy模块的源码[copy.py](https://github.com/python/cpython/blob/3.7/Lib/copy.py)）。copy模块包含浅拷贝（shallow copy）和深拷贝（deep copy）操作，具体介绍如下。
 
 ###1.1 接口
 
